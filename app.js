@@ -401,7 +401,15 @@ function renderScoreboard() {
 
 function renderPanelAmmo() {
   panelContainer.innerHTML = panelAmmo
-    .map((point) => `<div class="panel-card"><p>${point}</p></div>`)
+    .map((point, index) => {
+      const number = String(index + 1).padStart(2, "0");
+      return `
+        <div class="panel-card">
+          <div class="panel-meta"><span class="panel-number">${number}</span></div>
+          <p>${point}</p>
+        </div>
+      `;
+    })
     .join("");
 }
 

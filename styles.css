@@ -657,6 +657,35 @@ button:focus {
   border: 1px solid var(--border);
 }
 
+.panel-meta {
+  margin-bottom: 10px;
+}
+
+.panel-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 1200px) {
+  .panel-grid {
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+  }
+
+  .panel-card {
+    padding: 16px;
+  }
+}
+
 .question-list {
   display: grid;
   gap: 12px;
