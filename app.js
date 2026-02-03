@@ -188,12 +188,12 @@ const panelAmmo = [
 ];
 
 const audienceQuestions = [
-  "Where is AI already being used, unofficially? Which tools are staff using today for emails, quotes, HR, customer replies or documentation, and what is your policy if sensitive data gets pasted in?",
-  "What is one workflow you have actually changed, not just trialled? Pick a real process such as quoting, scheduling, QA logs, incident reports, care notes, or bid writing. What step changed, and what moved in the numbers?",
-  "What is the business case in hours saved, errors reduced, or revenue protected? If you stripped the buzzwords out, which single KPI proves value: cycle time, rework, complaints, late deliveries, utilisation, or win rate?",
-  "What data is AI allowed to see, and what is strictly off-limits? Customer details, contracts, pricing, employee info, supplier terms. Where do outputs get stored, and who can access them?",
-  "If AI makes a wrong call, who is accountable and what is the stop rule? Who signs off, who audits, and what triggers escalation or shutdown when the model is uncertain, inconsistent, or causes customer harm?",
-  "What happens to entry-level roles and progression routes? If AI takes the first draft of admin and junior knowledge work, how are you preserving training pathways and creating new \"learning-by-doing\" work?"
+  "Where is AI already being used unofficially, and what is your policy if staff paste sensitive data into those tools?",
+  "Which workflow has actually changed, not just been trialled, and what step shifted and moved the numbers?",
+  "What is the business case in one KPI, such as cycle time, rework, complaints, late deliveries, utilisation, or win rate?",
+  "What data can AI see, what is off-limits, where are outputs stored, and who can access them?",
+  "If AI makes a wrong call, who is accountable, who signs off, and what is the stop rule for escalation or shutdown?",
+  "If AI takes first drafts of admin and junior work, how will you protect training pathways and progression routes?"
 ];
 
 const sources = [
