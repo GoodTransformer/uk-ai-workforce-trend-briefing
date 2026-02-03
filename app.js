@@ -420,11 +420,18 @@ function renderQuestions() {
 }
 
 function renderSources() {
-  sourcesContainer.innerHTML = sources
-    .map(
-      (source, index) =>
-        `<div><span>${index + 1}.</span> <a href="${source.url}" target="_blank" rel="noopener">${source.label}</a></div>`
-    )
+  const midpoint = Math.ceil(sources.length / 2);
+  const columns = [[], []];
+
+  sources.forEach((source, index) => {
+    const columnIndex = index < midpoint ? 0 : 1;
+    columns[columnIndex].push(
+      `<div><span>${index + 1}.</span> <a href="${source.url}" target="_blank" rel="noopener">${source.label}</a></div>`
+    );
+  });
+
+  sourcesContainer.innerHTML = columns
+    .map((items) => `<div class="sources-column">${items.join("")}</div>`)
     .join("");
 }
 

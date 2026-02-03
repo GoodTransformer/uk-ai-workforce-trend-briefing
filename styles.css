@@ -701,6 +701,12 @@ button:focus {
 
 .sources {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.sources-column {
+  display: grid;
   gap: 10px;
 }
 
@@ -732,6 +738,10 @@ button:focus {
 }
 
 @media (max-width: 900px) {
+  .sources {
+    grid-template-columns: 1fr;
+  }
+
   .site-header {
     padding: 18px 6vw 12px;
   }
