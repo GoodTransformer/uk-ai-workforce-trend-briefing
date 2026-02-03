@@ -170,14 +170,6 @@ const scoreboard = [
     value: "6%"
   },
   {
-    label: "People who use AI regularly",
-    value: "66%"
-  },
-  {
-    label: "People who trust AI",
-    value: "46%"
-  },
-  {
     label: "Manufacturers hiring for AI experience",
     value: "71%"
   },
