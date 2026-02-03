@@ -327,7 +327,8 @@ function renderTrends() {
     return;
   }
 
-  results.forEach((trend) => {
+  results.forEach((trend, index) => {
+    const number = String(index + 1).padStart(2, "0");
     const card = document.createElement("article");
     card.className = "trend-card";
     card.innerHTML = `
@@ -335,7 +336,10 @@ function renderTrends() {
         <span>${trend.sector}</span>
         ${trend.themes.map((theme) => `<span>${theme}</span>`).join("")}
       </div>
-      <h4>${trend.title}</h4>
+      <div class="trend-header">
+        <span class="trend-number">${number}</span>
+        <h4>${trend.title}</h4>
+      </div>
       <p>${trend.summary}</p>
       <button class="ghost" data-toggle="${trend.id}">View operational detail</button>
       <div class="trend-details" id="detail-${trend.id}">
