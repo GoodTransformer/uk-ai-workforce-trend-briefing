@@ -148,9 +148,9 @@ const timeline = [
   },
   {
     date: "Jan 2026",
-    title: "ICO publishes audit outcomes on AI recruitment tools",
-    impact: "Seven recommendations for employers and vendors on lawful, fair and transparent use of AI in hiring.",
-    sourceUrl: "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf"
+    title: "DSIT evaluation finds low take-up for match-funded AI upskilling grants in UK SMEs",
+    impact: "A government evaluation of the Flexible AI Upskilling Fund reports lower-than-expected demand, with £381,096 awarded versus £7.4m announced, and most participating workforces described as beginner or intermediate in AI.",
+    sourceUrl: "https://www.gov.uk/government/publications/evaluation-of-the-flexible-ai-upskilling-fund/evaluation-of-the-flexible-ai-upskilling-fund"
   },
   {
     date: "18 Feb 2026",
@@ -207,7 +207,7 @@ const sources = [
   { label: "Unilever Lighthouse site applies AI for impact", url: "https://www.unilever.com/news/news-search/2025/five-ways-unilevers-new-lighthouse-site-applies-ai-for-impact/" },
   { label: "Parliament statement on Lanarkshire AI Growth Zone", url: "https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hlws1290" },
   { label: "DWP Microsoft 365 Copilot Trial - GOV.UK", url: "https://www.gov.uk/government/publications/an-evaluation-of-dwps-microsoft-365-copilot-365-trial/an-evaluation-of-dwps-microsoft-365-copilot-trial" },
-  { label: "ICO AI in recruitment outcomes report (PDF)", url: "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf" },
+  { label: "Evaluation of the Flexible AI Upskilling Fund (DSIT)", url: "https://www.gov.uk/government/publications/evaluation-of-the-flexible-ai-upskilling-fund/evaluation-of-the-flexible-ai-upskilling-fund" },
   { label: "ACAS Employment Rights Act 2025", url: "https://www.acas.org.uk/employment-rights-act-2025" },
   { label: "AI in hiring: Risk, rights, and responsibility - Shoosmiths", url: "https://www.shoosmiths.com/perspectives/stories/articles/ai-in-hiring-risk-rights-and-responsibility" },
   { label: "DCNN Magazine data centre projects", url: "https://dcnnmagazine.com/category/build/projects/" },
