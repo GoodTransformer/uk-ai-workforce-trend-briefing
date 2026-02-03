@@ -645,22 +645,26 @@ button:focus {
 
   .site-nav {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
-    padding: 8px;
-    border-radius: 16px;
+    display: flex;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 999px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
   }
 
   .site-nav a {
-    padding: 10px 12px;
-    font-size: 0.95rem;
+    padding: 10px 14px;
+    font-size: 0.92rem;
     text-align: center;
     background: rgba(20, 20, 20, 0.06);
+    white-space: nowrap;
+    scroll-snap-align: start;
   }
 
-  .site-nav a:last-child {
-    grid-column: 1 / -1;
+  .site-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .site-nav a:hover,
