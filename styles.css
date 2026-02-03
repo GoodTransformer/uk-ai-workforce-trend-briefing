@@ -519,8 +519,10 @@ button:focus {
 }
 
 .donut-center p:last-child {
-  font-size: 0.9rem;
-  line-height: 1.2;
+  font-size: 0.78rem;
+  line-height: 1.15;
+  margin-top: 4px;
+  transform: translateY(-6px);
 }
 
 .rule-list {
