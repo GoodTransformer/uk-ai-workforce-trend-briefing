@@ -136,15 +136,21 @@ const timeline = [
   },
   {
     date: "21 Jan 2026",
-    title: "Lloyds scales agentic AI from staff pilot to wider deployment",
-    impact: "Bank plans to expand use cases and integrate into services, targeting over GBP 100m AI value in 2026.",
+    title: "Lloyds scales 'agentic AI' from staff pilot to wider deployment",
+    impact: "Bank plans to expand use cases and integrate into services, targeting over £100m AI value in 2026.",
     sourceUrl: "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/ai-driven-benefits-2026.html"
   },
   {
     date: "29 Jan 2026",
     title: "Lanarkshire designated an AI Growth Zone",
-    impact: "Government says the designation could crowd in GBP 8.2B private investment for AI data centres and supporting infrastructure.",
+    impact: "Government says the designation could crowd in £8.2bn private investment for AI data centres and supporting infrastructure.",
     sourceUrl: "https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hlws1290"
+  },
+  {
+    date: "Jan 2026",
+    title: "ICO publishes audit outcomes on AI recruitment tools",
+    impact: "Seven recommendations for employers and vendors on lawful, fair and transparent use of AI in hiring.",
+    sourceUrl: "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf"
   },
   {
     date: "18 Feb 2026",
@@ -202,10 +208,15 @@ const audienceQuestions = [
 const sources = [
   { label: "Tech and transformation - Lloyds Banking Group", url: "https://www.lloydsbankinggroup.com/who-we-are/group-overview/tech-and-transformation.html" },
   { label: "Artificial Intelligence - Lloyds Banking Group", url: "https://www.lloydsbankinggroup.com/who-we-are/group-overview/artificial-intelligence.html" },
+  { label: "Lloyds AI-driven benefits 2026 press release", url: "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/ai-driven-benefits-2026.html" },
   { label: "Indicative ballot for AI protections - Equity", url: "https://www.equity.org.uk/campaigns-policy/indicative-ballot-for-ai-protections" },
+  { label: "Equity AI protection negotiations update", url: "https://www.equity.org.uk/news/2026/equity-welcomes-improved-offer-in-ai-protection-negotiations-in-film-and-tv" },
   { label: "AI protections negotiations - AI FILMS Studio", url: "https://studio.aifilms.ai/blog/uk-equity-pact-ai-protection-negotiations-2026" },
   { label: "Unilever Lighthouse site applies AI for impact", url: "https://www.unilever.com/news/news-search/2025/five-ways-unilevers-new-lighthouse-site-applies-ai-for-impact/" },
+  { label: "Parliament statement on Lanarkshire AI Growth Zone", url: "https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hlws1290" },
   { label: "DWP Microsoft 365 Copilot Trial - GOV.UK", url: "https://www.gov.uk/government/publications/an-evaluation-of-dwps-microsoft-365-copilot-365-trial/an-evaluation-of-dwps-microsoft-365-copilot-trial" },
+  { label: "ICO AI in recruitment outcomes report (PDF)", url: "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf" },
+  { label: "ACAS Employment Rights Act 2025", url: "https://www.acas.org.uk/employment-rights-act-2025" },
   { label: "AI in hiring: Risk, rights, and responsibility - Shoosmiths", url: "https://www.shoosmiths.com/perspectives/stories/articles/ai-in-hiring-risk-rights-and-responsibility" },
   { label: "DCNN Magazine data centre projects", url: "https://dcnnmagazine.com/category/build/projects/" },
   { label: "techUK AI Opportunities Action Plan", url: "https://www.techuk.org/resource/delivery-must-now-be-the-focus-of-the-uk-s-ai-opportunities-action-plan-in-2026.html" },
