@@ -252,8 +252,12 @@ button:focus {
 
 @media (min-width: 900px) {
   .hero-metrics {
-    margin-top: 22px;
+    margin-top: 0;
   }
+}
+
+.hero-metrics .section-header {
+  margin-bottom: 12px;
 }
 
 @media (min-width: 1100px) {
