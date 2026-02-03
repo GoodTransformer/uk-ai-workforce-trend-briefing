@@ -275,6 +275,21 @@ button:focus {
   margin: 0;
 }
 
+.metric-source {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-2);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(58, 107, 255, 0.35);
+}
+
+.metric-source:hover {
+  color: var(--ink);
+  border-bottom-color: rgba(20, 20, 20, 0.35);
+}
+
 .section {
   padding: 46px 8vw;
   scroll-margin-top: 140px;

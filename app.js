@@ -144,33 +144,33 @@ const trends = [
 const timeline = [
   {
     date: "20 Jan 2026",
-    title: "Equity-PACT AI protections agreed",
-    impact: "First UK-wide protections against non-consensual digital scanning and AI training.",
-    url: "https://www.equity.org.uk/campaigns-policy/indicative-ballot-for-ai-protections"
+    title: "Equity and PACT resume talks on AI scanning and training protections",
+    impact: "Improved contract wording proposed on consent and limits for digital scans and reuse in AI training.",
+    sourceUrl: "https://www.equity.org.uk/news/2026/equity-welcomes-improved-offer-in-ai-protection-negotiations-in-film-and-tv"
   },
   {
     date: "21 Jan 2026",
-    title: "Lloyds expands agentic AI rollout",
-    impact: "Transition from colleague beta to wide-scale app integration.",
-    url: "https://www.lloydsbankinggroup.com/who-we-are/group-overview/artificial-intelligence.html"
+    title: "Lloyds scales agentic AI from staff pilot to wider deployment",
+    impact: "Bank plans to expand use cases and integrate into services, targeting over GBP 100m AI value in 2026.",
+    sourceUrl: "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/ai-driven-benefits-2026.html"
   },
   {
     date: "29 Jan 2026",
-    title: "Lanarkshire named AI Growth Zone",
-    impact: "GBP 8.2B investment unlocked for AI-optimized data centers.",
-    url: "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology"
+    title: "Lanarkshire designated an AI Growth Zone",
+    impact: "Government says the designation could crowd in GBP 8.2B private investment for AI data centres and supporting infrastructure.",
+    sourceUrl: "https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hlws1290"
   },
   {
     date: "Jan 2026",
-    title: "ICO releases recruitment audit outcomes",
-    impact: "Seven compliance principles mandated for UK employers.",
-    url: "https://www.simmons-simmons.com/publications/cm6ye0gyw004otfm0oly7a0bd/ai-in-recruitment-the-ico-lifts-the-curtain-on-providers-of-ai-tools"
+    title: "ICO publishes audit outcomes on AI recruitment tools",
+    impact: "Seven recommendations for employers and vendors on lawful, fair and transparent use of AI in hiring.",
+    sourceUrl: "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf"
   },
   {
     date: "18 Feb 2026",
-    title: "Employment Rights Act reforms commence",
-    impact: "New collective consultation rules for AI-enabled surveillance.",
-    url: "https://www.cipd.org/uk/views-and-insights/thought-leadership/insight/employment-law-changes-januarry-2026/"
+    title: "Employment Rights Act changes begin (phase one)",
+    impact: "Trade union and industrial action reforms take effect from 18 February 2026.",
+    sourceUrl: "https://www.acas.org.uk/employment-rights-act-2025"
   }
 ];
 
@@ -386,7 +386,7 @@ function renderTimeline() {
   timeline.forEach((item) => {
     const node = document.createElement("a");
     node.className = "timeline-item";
-    node.href = item.url;
+    node.href = item.sourceUrl;
     node.target = "_blank";
     node.rel = "noopener";
     node.innerHTML = `
