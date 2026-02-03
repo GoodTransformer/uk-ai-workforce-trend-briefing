@@ -627,6 +627,17 @@ button:focus {
 }
 
 @media (max-width: 900px) {
+  .attribution-bar {
+    font-size: 0.78rem;
+    line-height: 1.4;
+    gap: 6px 12px;
+    padding: 10px 6vw 8px;
+  }
+
+  .attribution-bar span {
+    width: 100%;
+  }
+
   .site-header {
     flex-direction: column;
     align-items: flex-start;
@@ -646,6 +657,10 @@ button:focus {
     font-size: 0.95rem;
     text-align: center;
     background: rgba(20, 20, 20, 0.06);
+  }
+
+  .site-nav a:last-child {
+    grid-column: 1 / -1;
   }
 
   .site-nav a:hover,
