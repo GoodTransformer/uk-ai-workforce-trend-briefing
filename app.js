@@ -439,13 +439,28 @@ function bindReset() {
   });
 }
 
+function scrollToTarget(selector) {
+  const target = document.querySelector(selector);
+  if (!target) return;
+  const header = document.querySelector(".site-header");
+  const offset = header ? header.getBoundingClientRect().height + 12 : 0;
+  const top = Math.max(0, target.getBoundingClientRect().top + window.pageYOffset - offset);
+  window.scrollTo({ top, behavior: "smooth" });
+}
+
 function bindScrollButtons() {
   document.querySelectorAll("[data-scroll]").forEach((button) => {
     button.addEventListener("click", () => {
-      const target = document.querySelector(button.getAttribute("data-scroll"));
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
+      scrollToTarget(button.getAttribute("data-scroll"));
+    });
+  });
+}
+
+function bindNavLinks() {
+  document.querySelectorAll(".site-nav a[href^=\"#\"]").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      scrollToTarget(link.getAttribute("href"));
     });
   });
 }
@@ -490,3 +505,4 @@ bindReset();
 bindScrollButtons();
 setupObserver();
 hydrateLogo();
+bindNavLinks();
