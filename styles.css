@@ -510,6 +510,17 @@ button:focus {
   place-items: center;
   text-align: center;
   padding: 10px;
+  overflow: hidden;
+}
+
+.donut-center p {
+  margin: 0;
+  max-width: 100%;
+}
+
+.donut-center p:last-child {
+  font-size: 0.9rem;
+  line-height: 1.2;
 }
 
 .rule-list {
