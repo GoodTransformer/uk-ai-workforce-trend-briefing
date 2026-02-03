@@ -245,7 +245,7 @@ button:focus {
 
 .hero-metrics {
   display: grid;
-  gap: 14px;
+  gap: 12px;
   align-content: start;
   align-self: start;
 }
@@ -257,8 +257,9 @@ button:focus {
 }
 
 .hero-metrics .section-header {
-  margin-bottom: 12px;
-  margin-top: 38px;
+  grid-column: 1 / -1;
+  margin-bottom: 8px;
+  margin-top: 44px;
 }
 
 @media (min-width: 1100px) {
