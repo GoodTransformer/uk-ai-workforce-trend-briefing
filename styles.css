@@ -195,7 +195,7 @@ h4 {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 36px;
   padding: 24px 8vw 48px;
-  align-items: center;
+  align-items: start;
 }
 
 .hero-text {
@@ -243,12 +243,14 @@ button:focus {
 
 .hero-metrics {
   display: grid;
-  gap: 16px;
+  gap: 14px;
+  align-content: start;
+  align-self: start;
 }
 
 .metric-card {
   background: var(--card-strong);
-  padding: 18px 20px;
+  padding: 14px 18px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   border: 1px solid var(--border);
@@ -273,6 +275,8 @@ button:focus {
 .metric-label {
   color: var(--muted);
   margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
 }
 
 .metric-source {

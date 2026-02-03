@@ -56,20 +56,6 @@ const trends = [
     sources: "DWP Copilot Evaluation (Jan 2026); WorkLife (Aug 2024/Updated Jan 2026)."
   },
   {
-    id: "ico-recruitment",
-    title: "Regulatory Auditing for AI Recruitment",
-    sector: "Recruitment",
-    themes: ["Governance"],
-    companies: "Information Commissioner's Office",
-    summary: "ICO audit outcomes push hiring from self-regulation to formal governance.",
-    workforceImpact: "Impacts HR procurement and deployment across UK hiring platforms.",
-    mechanism: "Fairness audits, data minimization, and DPIAs; bans inferred ethnicity from bias testing.",
-    governance: "Seven compliance principles: fairness, transparency, data minimization, and GDPR Article 22 compliance.",
-    metrics: "Audit found critical failings; some providers reported accuracy only better than random.",
-    risks: "Regulatory fines; need to collect accurate special category data.",
-    sources: "ICO Audit Outcomes (Jan 2026); Lewis Silkin (Nov 2024/Updated Jan 2026)."
-  },
-  {
     id: "ai-growth-zones",
     title: "Infrastructure-Led AI Growth Zones",
     sector: "Infrastructure",
@@ -161,12 +147,6 @@ const timeline = [
     sourceUrl: "https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hlws1290"
   },
   {
-    date: "Jan 2026",
-    title: "ICO publishes audit outcomes on AI recruitment tools",
-    impact: "Seven recommendations for employers and vendors on lawful, fair and transparent use of AI in hiring.",
-    sourceUrl: "https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf"
-  },
-  {
     date: "18 Feb 2026",
     title: "Employment Rights Act changes begin (phase one)",
     impact: "Trade union and industrial action reforms take effect from 18 February 2026.",
@@ -227,7 +207,6 @@ const sources = [
   { label: "Unilever Lighthouse site applies AI for impact", url: "https://www.unilever.com/news/news-search/2025/five-ways-unilevers-new-lighthouse-site-applies-ai-for-impact/" },
   { label: "DWP Microsoft 365 Copilot Trial - GOV.UK", url: "https://www.gov.uk/government/publications/an-evaluation-of-dwps-microsoft-365-copilot-365-trial/an-evaluation-of-dwps-microsoft-365-copilot-trial" },
   { label: "AI in hiring: Risk, rights, and responsibility - Shoosmiths", url: "https://www.shoosmiths.com/perspectives/stories/articles/ai-in-hiring-risk-rights-and-responsibility" },
-  { label: "AI in recruitment: ICO recommendations - Lewis Silkin", url: "https://www.lewissilkin.com/insights/2024/11/27/ai-in-recruitment-icos-recommendations-and-key-questions" },
   { label: "DCNN Magazine data centre projects", url: "https://dcnnmagazine.com/category/build/projects/" },
   { label: "techUK AI Opportunities Action Plan", url: "https://www.techuk.org/resource/delivery-must-now-be-the-focus-of-the-uk-s-ai-opportunities-action-plan-in-2026.html" },
   { label: "BusinessGreen National Grid workforce rewiring", url: "https://www.businessgreen.com/feature/4523756/national-grid-rewiring-workforce-power-grid-30bn-transformation" },
@@ -251,8 +230,6 @@ const sources = [
   { label: "GLAA: AI and labour exploitation", url: "https://www.gla.gov.uk/publications/resources/glaa-webinars/emerging-technology-and-labour-exploitation-the-role-of-artificial-intelligence-january-2026" },
   { label: "Make a Difference: Augmentation over substitution", url: "https://makeadifference.media/culture/workplace-ai-adoption-wellbeing-culture/" },
   { label: "Digiday: Rolls-Royce HR gen AI", url: "https://digiday.com/marketing/8-months-in-how-rolls-royce-and-conagra-hr-teams-use-gen-ai-for-talent-development/" },
-  { label: "ICO plan of action", url: "https://ico.org.uk/about-the-ico/our-information/our-strategies-and-plans/artificial-intelligence-and-biometrics-strategy/our-plan-of-action/" },
-  { label: "Simmons & Simmons: ICO lifts the curtain", url: "https://www.simmons-simmons.com/publications/cm6ye0gyw004otfm0oly7a0bd/ai-in-recruitment-the-ico-lifts-the-curtain-on-providers-of-ai-tools" },
   { label: "GDPR Local: AI compliance guide", url: "https://gdprlocal.com/it/ai-compliance-uk-companies/" },
   { label: "DSIT organisation page", url: "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology" },
   { label: "Lleverage AI automation guide", url: "https://www.lleverage.ai/blog/ai-automation-in-the-uk-how-british-businesses-are-transforming-operations" },
