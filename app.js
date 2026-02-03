@@ -184,8 +184,7 @@ const panelAmmo = [
   "Measure one outcome per use case, or you will measure nothing. Pick a single KPI (time, cost, quality, risk, revenue) and baseline it before you start.",
   "Data handling is the hidden failure point. Define what staff can paste into AI, what systems it can connect to, and what is retained.",
   "Human-in-the-loop needs named owners and triggers. Decide who approves, who audits, and what conditions force escalation or shutdown.",
-  "Quality and consistency beat \"cleverness\" in production. Design for predictable outputs: templates, checklists, reference sources, and rollback paths.",
-  "Treat governance as a product that ships in increments. Start with risk tiers, a model register, and monitoring, then tighten controls as usage expands."
+  "Quality and consistency beat \"cleverness\" in production. Design for predictable outputs: templates, checklists, reference sources, and rollback paths."
 ];
 
 const audienceQuestions = [
