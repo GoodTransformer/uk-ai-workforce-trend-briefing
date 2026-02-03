@@ -472,6 +472,17 @@ function setupObserver() {
   document.querySelectorAll(".score-item").forEach((item) => observer.observe(item));
 }
 
+function hydrateLogo() {
+  const logo = document.querySelector(".brand-logo");
+  if (!logo) return;
+  logo.addEventListener("load", () => {
+    logo.classList.add("loaded");
+  });
+  logo.addEventListener("error", () => {
+    logo.remove();
+  });
+}
+
 renderTags(sectorTags, sectorContainer, "sector");
 renderTags(themeTags, themeContainer, "theme");
 renderTrends();
@@ -485,3 +496,4 @@ bindSearch();
 bindReset();
 bindScrollButtons();
 setupObserver();
+hydrateLogo();
