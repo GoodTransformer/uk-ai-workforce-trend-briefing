@@ -162,11 +162,11 @@ const timeline = [
 
 const scoreboard = [
   {
-    label: "Organizations using AI",
+    label: "Organisations using AI",
     value: "88%"
   },
   {
-    label: "Organizations with meaningful AI returns",
+    label: "Organisations with meaningful AI returns",
     value: "6%"
   },
   {

@@ -489,6 +489,24 @@ button:focus {
   align-items: center;
 }
 
+.rule-card + .section-header {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.trust-scoreboard {
+  margin-top: 6px;
+  gap: 10px;
+}
+
+.trust-scoreboard .score-item {
+  padding: 14px 18px;
+}
+
+.trust-scoreboard .score-bar span {
+  background: linear-gradient(120deg, #22c55e, #16a34a);
+}
+
 .donut {
   width: 220px;
   height: 220px;
