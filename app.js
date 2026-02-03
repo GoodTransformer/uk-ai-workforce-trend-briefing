@@ -180,12 +180,12 @@ const scoreboard = [
 ];
 
 const panelAmmo = [
-  "The 70% Human Rule: 70% of AI failure is process inertia and cultural pushback - it is a people transformation.",
-  "The End of the Entry-Level?: Automating entry roles risks removing the proving ground for future leaders.",
-  "Agentic AI is a Decision-Rights Issue: Moving from prompt engineering to accountability engineering.",
-  "Shadow AI is a Management Failure: Trust doubles when AI solves real pain, not when it is mandated.",
-  "The Trust Premium in Recruitment: Accurate is the new fair - inferred data breaks the law.",
-  "Engineering Intelligence vs. Automation: AI should elevate engineers, not replace them."
+  "Adoption is a workflow redesign problem, not a tool rollout. If you cannot point to the exact step that changed in a real process, you do not have adoption yet.",
+  "Measure one outcome per use case, or you will measure nothing. Pick a single KPI (time, cost, quality, risk, revenue) and baseline it before you start.",
+  "Data handling is the hidden failure point. Define what staff can paste into AI, what systems it can connect to, and what is retained.",
+  "Human-in-the-loop needs named owners and triggers. Decide who approves, who audits, and what conditions force escalation or shutdown.",
+  "Quality and consistency beat \"cleverness\" in production. Design for predictable outputs: templates, checklists, reference sources, and rollback paths.",
+  "Treat governance as a product that ships in increments. Start with risk tiers, a model register, and monitoring, then tighten controls as usage expands."
 ];
 
 const audienceQuestions = [
