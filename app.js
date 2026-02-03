@@ -188,12 +188,12 @@ const panelAmmo = [
 ];
 
 const audienceQuestions = [
-  "If 19 minutes saved per day is refilled with busy work, are we improving productivity or burnout?",
-  "With 71% of manufacturers hiring for AI skills, are we creating a two-tier workforce?",
-  "Will AI rights become a standard part of collective bargaining by 2027?",
-  "If only 18% have mature AI strategies, are the other 82% AI tourists waiting for a failure?",
-  "How do we prevent AI Academies from becoming tick-box exercises?",
-  "How many AI Growth Zone jobs are truly new versus rebranded roles?"
+  "Where is AI already being used, unofficially? Which tools are staff using today for emails, quotes, HR, customer replies or documentation, and what is your policy if sensitive data gets pasted in?",
+  "What is one workflow you have actually changed, not just trialled? Pick a real process such as quoting, scheduling, QA logs, incident reports, care notes, or bid writing. What step changed, and what moved in the numbers?",
+  "What is the business case in hours saved, errors reduced, or revenue protected? If you stripped the buzzwords out, which single KPI proves value: cycle time, rework, complaints, late deliveries, utilisation, or win rate?",
+  "What data is AI allowed to see, and what is strictly off-limits? Customer details, contracts, pricing, employee info, supplier terms. Where do outputs get stored, and who can access them?",
+  "If AI makes a wrong call, who is accountable and what is the stop rule? Who signs off, who audits, and what triggers escalation or shutdown when the model is uncertain, inconsistent, or causes customer harm?",
+  "What happens to entry-level roles and progression routes? If AI takes the first draft of admin and junior knowledge work, how are you preserving training pathways and creating new \"learning-by-doing\" work?"
 ];
 
 const sources = [
