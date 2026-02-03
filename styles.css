@@ -440,6 +440,10 @@ button:focus {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.trend-card button.ghost {
+  margin-top: auto;
+}
+
 .trend-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow);
