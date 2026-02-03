@@ -83,13 +83,13 @@ body {
 
 .brand {
   display: flex;
-  align-items: flex-start;
-  gap: 18px;
+  align-items: center;
+  gap: 20px;
 }
 
 .brand-mark {
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   border-radius: 18px;
   background: transparent;
   box-shadow: var(--shadow-soft);
@@ -98,7 +98,7 @@ body {
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(20, 20, 20, 0.08);
-  margin-top: 2px;
+  margin-top: 0;
 }
 
 .brand-logo {
@@ -271,7 +271,11 @@ button:focus {
 
 .section {
   padding: 46px 8vw;
-  scroll-margin-top: 110px;
+  scroll-margin-top: 140px;
+}
+
+#implementation {
+  scroll-margin-top: 170px;
 }
 
 .section-header {
@@ -299,6 +303,8 @@ button:focus {
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--border);
   transition: transform 0.2s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
 .timeline-item:hover {
@@ -307,6 +313,13 @@ button:focus {
 
 .timeline-item span {
   font-weight: 600;
+}
+
+.timeline-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-2);
+  white-space: nowrap;
 }
 
 .filters {

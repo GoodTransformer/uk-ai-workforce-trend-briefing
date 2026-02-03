@@ -145,27 +145,32 @@ const timeline = [
   {
     date: "20 Jan 2026",
     title: "Equity-PACT AI protections agreed",
-    impact: "First UK-wide protections against non-consensual digital scanning and AI training."
+    impact: "First UK-wide protections against non-consensual digital scanning and AI training.",
+    url: "https://www.equity.org.uk/campaigns-policy/indicative-ballot-for-ai-protections"
   },
   {
     date: "21 Jan 2026",
     title: "Lloyds expands agentic AI rollout",
-    impact: "Transition from colleague beta to wide-scale app integration."
+    impact: "Transition from colleague beta to wide-scale app integration.",
+    url: "https://www.lloydsbankinggroup.com/who-we-are/group-overview/artificial-intelligence.html"
   },
   {
     date: "29 Jan 2026",
     title: "Lanarkshire named AI Growth Zone",
-    impact: "GBP 8.2B investment unlocked for AI-optimized data centers."
+    impact: "GBP 8.2B investment unlocked for AI-optimized data centers.",
+    url: "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology"
   },
   {
     date: "Jan 2026",
     title: "ICO releases recruitment audit outcomes",
-    impact: "Seven compliance principles mandated for UK employers."
+    impact: "Seven compliance principles mandated for UK employers.",
+    url: "https://www.simmons-simmons.com/publications/cm6ye0gyw004otfm0oly7a0bd/ai-in-recruitment-the-ico-lifts-the-curtain-on-providers-of-ai-tools"
   },
   {
     date: "18 Feb 2026",
     title: "Employment Rights Act reforms commence",
-    impact: "New collective consultation rules for AI-enabled surveillance."
+    impact: "New collective consultation rules for AI-enabled surveillance.",
+    url: "https://www.cipd.org/uk/views-and-insights/thought-leadership/insight/employment-law-changes-januarry-2026/"
   }
 ];
 
@@ -379,14 +384,18 @@ function renderTrends() {
 function renderTimeline() {
   timelineContainer.innerHTML = "";
   timeline.forEach((item) => {
-    const node = document.createElement("div");
+    const node = document.createElement("a");
     node.className = "timeline-item";
+    node.href = item.url;
+    node.target = "_blank";
+    node.rel = "noopener";
     node.innerHTML = `
       <div>
         <p class="kicker">${item.date}</p>
         <span>${item.title}</span>
         <p class="metric-label">${item.impact}</p>
       </div>
+      <span class="timeline-link">Read source</span>
     `;
     timelineContainer.appendChild(node);
   });
