@@ -457,7 +457,12 @@ function scrollToTarget(selector) {
   const target = document.querySelector(selector);
   if (!target) return;
   const header = document.querySelector(".site-header");
-  const offset = header ? header.getBoundingClientRect().height + 12 : 0;
+  let offset = 0;
+  if (header) {
+    const position = window.getComputedStyle(header).position;
+    const isSticky = position.includes("sticky");
+    offset = isSticky ? header.getBoundingClientRect().height + 12 : 0;
+  }
   const top = Math.max(0, target.getBoundingClientRect().top + window.pageYOffset - offset);
   window.scrollTo({ top, behavior: "smooth" });
 }
@@ -517,6 +522,7 @@ renderSources();
 bindSearch();
 bindReset();
 bindScrollButtons();
+bindNavLinks();
 setupObserver();
 hydrateLogo();
 
