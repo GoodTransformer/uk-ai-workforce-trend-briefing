@@ -153,10 +153,10 @@ const timeline = [
     sourceUrl: "https://www.gov.uk/government/publications/evaluation-of-the-flexible-ai-upskilling-fund/evaluation-of-the-flexible-ai-upskilling-fund"
   },
   {
-    date: "18 Feb 2026",
-    title: "Employment Rights Act changes begin (phase one)",
-    impact: "Trade union and industrial action reforms take effect from 18 February 2026.",
-    sourceUrl: "https://www.acas.org.uk/employment-rights-act-2025"
+    date: "29 Jan 2026",
+    title: "BBC-reported: Driverless taxis could launch in the UK as early as September",
+    impact: "Waymo says it hopes to run London robotaxi pilots in April, with a possible service later in 2026, subject to regulation.",
+    sourceUrl: "https://www.bbc.co.uk/news/articles/czej9n578k9o"
   }
 ];
 
@@ -207,7 +207,7 @@ const sources = [
   { label: "Parliament statement on Lanarkshire AI Growth Zone", url: "https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hlws1290" },
   { label: "DWP Microsoft 365 Copilot Trial - GOV.UK", url: "https://www.gov.uk/government/publications/an-evaluation-of-dwps-microsoft-365-copilot-365-trial/an-evaluation-of-dwps-microsoft-365-copilot-trial" },
   { label: "Evaluation of the Flexible AI Upskilling Fund (DSIT)", url: "https://www.gov.uk/government/publications/evaluation-of-the-flexible-ai-upskilling-fund/evaluation-of-the-flexible-ai-upskilling-fund" },
-  { label: "ACAS Employment Rights Act 2025", url: "https://www.acas.org.uk/employment-rights-act-2025" },
+  { label: "BBC: Driverless taxis could launch in the UK as early as September", url: "https://www.bbc.co.uk/news/articles/czej9n578k9o" },
   { label: "AI in hiring: Risk, rights, and responsibility - Shoosmiths", url: "https://www.shoosmiths.com/perspectives/stories/articles/ai-in-hiring-risk-rights-and-responsibility" },
   { label: "DCNN Magazine data centre projects", url: "https://dcnnmagazine.com/category/build/projects/" },
   { label: "techUK AI Opportunities Action Plan", url: "https://www.techuk.org/resource/delivery-must-now-be-the-focus-of-the-uk-s-ai-opportunities-action-plan-in-2026.html" },
