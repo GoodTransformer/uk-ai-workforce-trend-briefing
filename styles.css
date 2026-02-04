@@ -776,6 +776,10 @@ button:focus {
 }
 
 @media (max-width: 900px) {
+  .site-header {
+    position: static;
+  }
+
   .sources {
     grid-template-columns: 1fr;
   }

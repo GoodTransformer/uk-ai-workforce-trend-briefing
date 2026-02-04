@@ -519,4 +519,13 @@ bindReset();
 bindScrollButtons();
 setupObserver();
 hydrateLogo();
+
+if (!window.location.hash) {
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+  requestAnimationFrame(() => {
+    window.scrollTo(0, 0);
+  });
+}
 bindNavLinks();
