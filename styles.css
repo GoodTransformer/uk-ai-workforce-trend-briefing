@@ -780,6 +780,14 @@ button:focus {
     position: static;
   }
 
+  .section {
+    scroll-margin-top: 24px;
+  }
+
+  #implementation {
+    scroll-margin-top: 24px;
+  }
+
   .sources {
     grid-template-columns: 1fr;
   }
