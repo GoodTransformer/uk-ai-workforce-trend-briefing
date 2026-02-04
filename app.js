@@ -163,23 +163,19 @@ const timeline = [
 const scoreboard = [
   {
     label: "Organisations using AI",
-    value: "88%",
-    sourceUrl: "https://www.educateventures.com/the-skinny-24-january-2026"
+    value: "88%"
   },
   {
     label: "Organisations with meaningful AI returns",
-    value: "6%",
-    sourceUrl: "https://www.educateventures.com/the-skinny-24-january-2026"
+    value: "6%"
   },
   {
     label: "Manufacturers hiring for AI experience",
-    value: "71%",
-    sourceUrl: "https://www.oneadvanced.com/resources/manufacturings-2026-outlook-ai-ambition-vs.-operational-reality"
+    value: "71%"
   },
   {
     label: "Manufacturers with mature AI strategy",
-    value: "18%",
-    sourceUrl: "https://www.oneadvanced.com/resources/manufacturings-2026-outlook-ai-ambition-vs.-operational-reality"
+    value: "18%"
   }
 ];
 
@@ -398,7 +394,6 @@ function renderScoreboard() {
       <h4>${item.label}</h4>
       <div class="score-bar"><span></span></div>
       <p class="metric">${item.value}</p>
-      <a class="metric-source metric-source--small" href="${item.sourceUrl}" target="_blank" rel="noopener">Source</a>
     `;
     scoreboardContainer.appendChild(card);
   });
