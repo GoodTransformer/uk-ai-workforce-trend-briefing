@@ -442,6 +442,11 @@ button:focus {
   background: rgba(20, 20, 20, 0.08);
 }
 
+.filter-tag:focus-visible {
+  outline: 3px solid rgba(255, 107, 74, 0.4);
+  outline-offset: 3px;
+}
+
 .filter-tag.active {
   background: var(--ink);
   color: #fff;
@@ -836,6 +841,7 @@ button:focus {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    scroll-padding-left: 6vw;
     margin-left: calc(var(--logo-size) + var(--logo-gap));
     width: calc(100% - (var(--logo-size) + var(--logo-gap)));
   }
