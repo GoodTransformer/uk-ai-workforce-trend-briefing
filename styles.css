@@ -304,6 +304,9 @@ button:focus {
   border: 1px solid var(--border);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .metric-card::after {
@@ -335,6 +338,8 @@ button:focus {
   color: var(--accent-2);
   text-decoration: none;
   border-bottom: 1px solid rgba(58, 107, 255, 0.35);
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .metric-source:hover {
