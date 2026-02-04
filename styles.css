@@ -29,6 +29,12 @@ body {
   line-height: 1.6;
 }
 
+a:focus-visible {
+  outline: 3px solid rgba(255, 107, 74, 0.4);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 .bg-gradient {
   position: fixed;
   inset: 0;
@@ -76,6 +82,23 @@ body {
   color: inherit;
   text-decoration: none;
   border-bottom: 1px solid rgba(20, 20, 20, 0.2);
+}
+
+.attribution-bar a:focus-visible,
+.attribution-footer a:focus-visible {
+  outline: 3px solid rgba(255, 107, 74, 0.4);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.site-nav a:focus-visible {
+  outline: 3px solid rgba(255, 107, 74, 0.45);
+  outline-offset: 3px;
+}
+
+button:focus-visible {
+  outline: 3px solid rgba(255, 107, 74, 0.45);
+  outline-offset: 4px;
 }
 
 .attribution-bar a:hover,
