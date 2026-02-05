@@ -613,23 +613,14 @@ button:focus {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  position: relative;
-  display: grid;
-  place-items: center;
-  margin: 0 auto;
-}
-
-.donut::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
   background: conic-gradient(
     var(--accent) 0 36deg,
     #f2c94c 36deg 108deg,
     var(--accent-2) 108deg 360deg
   );
-  animation: donut-ring-intro 1.4s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
 }
 
 .donut-center {
@@ -661,23 +652,6 @@ button:focus {
   line-height: 1.15;
   margin-top: 2px;
   transform: translateY(-2px);
-}
-
-@keyframes donut-ring-intro {
-  0% {
-    transform: rotate(-120deg) scale(0.96);
-    opacity: 0.7;
-  }
-  100% {
-    transform: rotate(0deg) scale(1);
-    opacity: 1;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .donut::before {
-    animation: none;
-  }
 }
 
 .rule-list {
