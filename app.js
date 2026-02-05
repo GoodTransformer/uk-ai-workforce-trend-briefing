@@ -171,20 +171,24 @@ const timeline = [
 
 const scoreboard = [
   {
-    label: "Organisations using AI",
-    value: "88%"
+    label: "Workers using AI at work",
+    value: "88%",
+    sourceUrl: "https://www.ey.com/en_gl/newsroom/2025/11/ey-survey-reveals-companies-are-missing-out-on-up-to-40-percent-of-ai-productivity-gains-due-to-gaps-in-talent-strategy"
   },
   {
-    label: "Organisations with meaningful AI returns",
-    value: "6%"
+    label: "Organisations seeing material AI returns",
+    value: "6%",
+    sourceUrl: "https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/november%202025/the-state-of-ai-2025-agents-innovation_cmyk-v1.pdf"
   },
   {
-    label: "Manufacturers hiring for AI experience",
-    value: "71%"
+    label: "UK businesses currently using AI",
+    value: "25%",
+    sourceUrl: "https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/bulletins/businessinsightsandimpactontheukeconomy/8january2026"
   },
   {
-    label: "Manufacturers with mature AI strategy",
-    value: "18%"
+    label: "In UK AI-adopting businesses: staff using AI (average)",
+    value: "30%",
+    sourceUrl: "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research"
   }
 ];
 
@@ -411,6 +415,7 @@ function renderScoreboard() {
       <h4>${item.label}</h4>
       <div class="score-bar"><span></span></div>
       <p class="metric">${item.value}</p>
+      <a class="score-source" href="${item.sourceUrl}" target="_blank" rel="noopener">Read source</a>
     `;
     scoreboardContainer.appendChild(card);
   });
