@@ -276,7 +276,7 @@ button:focus {
   gap: 12px;
   align-content: start;
   align-self: start;
-  grid-auto-rows: 1fr;
+  grid-auto-rows: auto;
 }
 
 @media (min-width: 900px) {
@@ -308,7 +308,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  min-height: 212px;
+  min-height: 188px;
 }
 
 .metric-card::after {
@@ -330,7 +330,7 @@ button:focus {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.45;
-  min-height: 84px;
+  min-height: 64px;
 }
 
 .metric-source {
@@ -588,6 +588,10 @@ button:focus {
 
 .trust-scoreboard .score-item {
   padding: 14px 18px;
+}
+
+.trust-scoreboard .score-item h4 {
+  min-height: 0;
 }
 
 .trust-scoreboard .score-bar span {
