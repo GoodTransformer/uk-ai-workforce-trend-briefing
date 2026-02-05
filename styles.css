@@ -580,12 +580,12 @@ button:focus {
 }
 
 .rule-card + .section-header {
-  margin-top: 8px;
+  margin-top: 16px;
   margin-bottom: 8px;
 }
 
 .rule-card + .section-header h4 {
-  margin: 0 0 4px;
+  margin: 0 0 6px;
 }
 
 .rule-card + .section-header .metric-label {
@@ -593,7 +593,7 @@ button:focus {
 }
 
 .trust-scoreboard {
-  margin-top: 2px;
+  margin-top: 16px;
   gap: 10px;
 }
 
