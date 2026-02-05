@@ -494,7 +494,8 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  min-height: 44px;
+  min-height: 74px;
+  align-content: flex-start;
 }
 
 .trend-tags span {
