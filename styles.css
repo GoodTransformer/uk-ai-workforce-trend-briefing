@@ -391,6 +391,8 @@ button:focus {
 
 .timeline-item span {
   font-weight: 600;
+  display: block;
+  min-height: 44px;
 }
 
 .timeline-link {
@@ -531,6 +533,7 @@ button:focus {
 .trend-card p {
   margin: 0;
   color: var(--muted);
+  min-height: 84px;
 }
 
 .trend-details {
