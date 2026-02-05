@@ -330,6 +330,9 @@ button:focus {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.45;
+}
+
+.metric-card .metric-label {
   min-height: 64px;
 }
 
@@ -581,8 +584,12 @@ button:focus {
   margin-bottom: 12px;
 }
 
-.trust-scoreboard {
+.rule-card + .section-header .metric-label {
   margin-top: 6px;
+}
+
+.trust-scoreboard {
+  margin-top: 0;
   gap: 10px;
 }
 
