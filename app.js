@@ -239,7 +239,7 @@ const sources = [
   { label: "Josh Bersin: Skills-based organization", url: "https://joshbersin.com/2023/07/building-a-skills-based-organization-the-exciting-but-sober-reality/" },
   { label: "SAI Group: AI at the checkout", url: "https://news.saigroups.co.uk/ai-at-the-checkout-when-computer-vision-becomes-the-new-security/" },
   { label: "Educate Ventures: The Skinny on AI", url: "https://www.educateventures.com/the-skinny-24-january-2026" },
-  { label: "CIPD: UK employment law changes", url: "https://www.cipd.org/uk/views-and-insights/thought-leadership/insight/employment-law-changes-januarry-2026/" },
+  { label: "CIPD: UK employment law changes", url: "https://www.cipd.org/uk/views-and-insights/thought-leadership/insight/employment-law-changes-january-2026/" },
   { label: "Seeking Alpha Lloyds earnings call transcript", url: "https://seekingalpha.com/article/4863792-lloyds-banking-group-plc-lyg-q4-2025-earnings-call-transcript" },
   { label: "WebProNews Lloyds AI strategy", url: "https://www.webpronews.com/how-lloyds-banking-groups-ai-strategy-is-redefining-financial-services-through-strategic-human-machine-collaboration/" },
   { label: "Josh Bersin: AI in corporate learning", url: "https://joshbersin.com/2023/12/ai-is-transforming-corporate-learning-even-faster-than-i-expected/" },
