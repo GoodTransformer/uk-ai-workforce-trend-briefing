@@ -138,16 +138,10 @@ const trends = [
 
 const timeline = [
   {
-    date: "20 Jan 2026",
-    title: "Equity and PACT resume talks on AI scanning and training protections",
-    impact: "Improved contract wording proposed on consent and limits for digital scans and reuse in AI training.",
-    sourceUrl: "https://www.equity.org.uk/news/2026/equity-welcomes-improved-offer-in-ai-protection-negotiations-in-film-and-tv"
-  },
-  {
-    date: "21 Jan 2026",
-    title: "Lloyds scales 'agentic AI' from staff pilot to wider deployment",
-    impact: "Bank plans to expand use cases and integrate into services, targeting over £100m AI value in 2026.",
-    sourceUrl: "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/ai-driven-benefits-2026.html"
+    date: "Feb 2026",
+    title: "Output up, jobs down: UK services automate",
+    impact: "The UK services sector grew to a five-month high, but employment fell again, extending the longest run of job shedding in 16 years. Firms cite automation and not replacing leavers to protect margins, a clear signal that productivity gains are coming from technology, not headcount.",
+    sourceUrl: "https://www.theguardian.com/business/2026/feb/04/uk-service-sector-job-cuts-companies-automate-pmi-survey"
   },
   {
     date: "29 Jan 2026",
@@ -156,16 +150,22 @@ const timeline = [
     sourceUrl: "https://questions-statements.parliament.uk/written-statements/detail/2026-01-29/hlws1290"
   },
   {
-    date: "Jan 2026",
-    title: "DSIT evaluation finds low take-up for match-funded AI upskilling grants in UK SMEs",
-    impact: "A government evaluation of the Flexible AI Upskilling Fund reports lower-than-expected demand, with £381,096 awarded versus £7.4m announced, and most participating workforces described as beginner or intermediate in AI.",
-    sourceUrl: "https://www.gov.uk/government/publications/evaluation-of-the-flexible-ai-upskilling-fund/evaluation-of-the-flexible-ai-upskilling-fund"
-  },
-  {
     date: "29 Jan 2026",
     title: "BBC-reported: Driverless taxis could launch in the UK as early as September",
     impact: "Waymo says it hopes to run London robotaxi pilots in April, with a possible service later in 2026, subject to regulation.",
     sourceUrl: "https://www.bbc.co.uk/news/articles/czej9n578k9o"
+  },
+  {
+    date: "21 Jan 2026",
+    title: "Lloyds scales 'agentic AI' from staff pilot to wider deployment",
+    impact: "Bank plans to expand use cases and integrate into services, targeting over £100m AI value in 2026.",
+    sourceUrl: "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds-banking-group/ai-driven-benefits-2026.html"
+  },
+  {
+    date: "20 Jan 2026",
+    title: "Equity and PACT resume talks on AI scanning and training protections",
+    impact: "Improved contract wording proposed on consent and limits for digital scans and reuse in AI training.",
+    sourceUrl: "https://www.equity.org.uk/news/2026/equity-welcomes-improved-offer-in-ai-protection-negotiations-in-film-and-tv"
   }
 ];
 
