@@ -276,6 +276,7 @@ button:focus {
   gap: 12px;
   align-content: start;
   align-self: start;
+  grid-auto-rows: 1fr;
 }
 
 @media (min-width: 900px) {
@@ -307,6 +308,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  min-height: 212px;
 }
 
 .metric-card::after {
@@ -328,6 +330,7 @@ button:focus {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.45;
+  min-height: 84px;
 }
 
 .metric-source {
@@ -444,6 +447,8 @@ button:focus {
   cursor: pointer;
   font-size: 0.85rem;
   font-weight: 600;
+  min-width: 116px;
+  text-align: center;
   transition: all 0.2s ease;
 }
 
